@@ -1,3 +1,3 @@
-module github.com/jamessonfaria/golang_grpc
+module github.com/jamessonfaria/golang-grpc
 
 go 1.19
