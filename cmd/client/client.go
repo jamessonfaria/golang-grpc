@@ -57,7 +57,6 @@ func AddUserVerbose(client pb.UserServiceClient) {
 		}
 		if err != nil {
 			log.Fatalf("Could not receive the message: %v", err)
-
 		}
 
 		fmt.Println("Status: ", stream.Status, " - ", stream.GetUser())
