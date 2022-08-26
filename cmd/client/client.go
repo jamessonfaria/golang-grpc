@@ -60,6 +60,6 @@ func AddUserVerbose(client pb.UserServiceClient) {
 
 		}
 
-		fmt.Println("Status: ", stream.Status)
+		fmt.Println("Status: ", stream.Status, " - ", stream.GetUser())
 	}
 }
